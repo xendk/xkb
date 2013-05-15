@@ -281,7 +281,8 @@
   bw              Tswana
   ph              Filipino
   md              Moldavian
-
+  xen             Xen
+       
 ! variant
   chr             us: Cherokee
   euro            us: English (US, with euro on 5)

@@ -5846,6 +5846,28 @@
     </layout>
     <layout>
       <configItem>
+        <name>xen</name>
+        <shortDescription>xen</shortDescription>
+        <description>Xen</description>
+        <languageList>
+          <iso639Id>dan</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>xvorakte</name>
+            <description>Xen - Xvorak TE</description>
+          </configItem>
+          <configItem>
+            <name>xvorak</name>
+            <description>Xen - Xvorak</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>md</name>
         <shortDescription>md</shortDescription>
         <description>Moldavian</description>
