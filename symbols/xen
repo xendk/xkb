@@ -14,6 +14,18 @@ xkb_symbols "xvorakte" {
     key <HKTG> {        [       Alt_L,  Meta_L          ]       };
     key <AB11> {        [       Alt_R,  Meta_R          ]       };
     //  modifier_map Mod1   { Alt_L, Alt_R, Meta_L, Meta_R };
+   key <LALT> {
+        type[group1]= "TWO_LEVEL",
+        [ ISO_Level3_Shift, Multi_key ]
+    };
+   key <RALT> {
+        type[group1]= "TWO_LEVEL",
+        [ ISO_Level3_Shift, Multi_key ]
+    };
+    modifier_map Mod5   { <LALT> };
+    modifier_map Mod5   { <RALT> };
+    modifier_map Mod1   { <HKTG> };
+    modifier_map Mod1   { <AB11> };
 
 };
 
