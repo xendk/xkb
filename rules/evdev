@@ -93,6 +93,7 @@
   applealu_jis	=	evdev+macintosh(jisevdev)
   olpc          =       evdev+olpc(olpc)
   olpcm         =       evdev+olpc(olpcm)
+  xen_te        =	xen_te
   *		=	evdev
 
 ! layout[1]	=	keycodes

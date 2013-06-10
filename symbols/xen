@@ -9,23 +9,27 @@ xkb_symbols "xvorakte" {
     key <AC11> { [	    z,	Z		]	};
     key <AB10> { [	minus,	underscore	]	};
 
-    // key <HKTG> {        [       VoidSymbol,  VoidSymbol          ]       };
-    //key <HKTG> {        [       Alt_L,  Meta_L          ]       };
-    key <HKTG> {        [       Alt_L,  Meta_L          ]       };
-    key <AB11> {        [       Alt_R,  Meta_R          ]       };
-    //  modifier_map Mod1   { Alt_L, Alt_R, Meta_L, Meta_R };
-   key <LALT> {
+    key <XLAL> {
+        type[group1]= "TWO_LEVEL",
+        [       Alt_L,  Meta_L          ]
+       };
+    key <XRAL> {
+        type[group1]= "TWO_LEVEL",
+        [       Alt_R,  Meta_R          ]
+       };
+   key <XLGR> {
         type[group1]= "TWO_LEVEL",
         [ ISO_Level3_Shift, Multi_key ]
     };
-   key <RALT> {
+   key <XRGR> {
         type[group1]= "TWO_LEVEL",
         [ ISO_Level3_Shift, Multi_key ]
     };
-    modifier_map Mod5   { <LALT> };
-    modifier_map Mod5   { <RALT> };
-    modifier_map Mod1   { <HKTG> };
-    modifier_map Mod1   { <AB11> };
+
+    modifier_map Mod5   { <XLGR> };
+    modifier_map Mod5   { <XRGR> };
+    modifier_map Mod1   { <XLAL> };
+    modifier_map Mod1   { <XRAL> };
 
 };
 
