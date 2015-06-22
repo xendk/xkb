@@ -1591,7 +1591,14 @@
           <iso639Id>alb</iso639Id>
         </languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>plisi-d1</name>
+            <description>Albanian (Plisi D1)</description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1845,6 +1852,13 @@
         </variant>
         <variant>
           <configItem>
+            <name>eeyek</name>
+            <description>Manipuri (Eeyek)</description>
+            <languageList><iso639Id>mni</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>guj</name>
             
             <shortDescription>gu</shortDescription>
@@ -1925,7 +1939,7 @@
             <name>mal_enhanced</name>
             
             <shortDescription>ml</shortDescription>
-            <description>Malayalam (enhanced Inscript with Rupee Sign)</description>
+            <description>Malayalam (enhanced Inscript, with rupee sign)</description>
             <languageList><iso639Id>mal</iso639Id></languageList>
           </configItem>
          </variant>
@@ -2110,7 +2124,7 @@
             <name>eng</name>
             
             <shortDescription>en</shortDescription>
-            <description>English (India, with RupeeSign)</description>
+            <description>English (India, with rupee sign)</description>
             <languageList>
               <iso639Id>eng</iso639Id>
             </languageList>
@@ -2132,13 +2146,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Bosnian (use guillemets for quotes)</description>
+            <description>Bosnian (with guillemets for quotes)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <description>Bosnian (use Bosnian digraphs)</description>
+            <description>Bosnian (with Bosnian digraphs)</description>
           </configItem>
         </variant>
         <variant>
@@ -2181,19 +2195,19 @@
         <variant>
           <configItem>
             <name>nativo</name>
-            <description>Portuguese (Brazil, nativo)</description>
+            <description>Portuguese (Brazil, Nativo)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <description>Portuguese (Brazil, nativo for US keyboards)</description>
+            <description>Portuguese (Brazil, Nativo for US keyboards)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-epo</name>
-            <description>Portuguese (Brazil, nativo for Esperanto)</description>
+            <description>Esperanto (Brazil, Nativo)</description>
             <languageList>
               <iso639Id>epo</iso639Id>
             </languageList>
@@ -2535,10 +2549,11 @@
         </variant>
         <variant>
           <configItem>
-            <name>uig</name>
+            <name>ug</name>
+            <shortDescription>ug</shortDescription>
             <description>Uyghur</description>
             <languageList>
-              <iso639Id>uig</iso639Id>
+              <iso639Id>ug</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -2558,13 +2573,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Croatian (use guillemets for quotes)</description>
+            <description>Croatian (with guillemets for quotes)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <description>Croatian (use Croatian digraphs)</description>
+            <description>Croatian (with Croatian digraphs)</description>
           </configItem>
         </variant>
         <variant>
@@ -2639,6 +2654,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Danish (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <description>Danish (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -2748,7 +2769,7 @@
         <variant>
           <configItem>
             <name>pes_keypad</name>
-            <description>Persian (with Persian Keypad)</description>
+            <description>Persian (with Persian keypad)</description>
           </configItem>
         </variant>
         <variant>
@@ -2893,6 +2914,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Finnish (classic, eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <description>Finnish (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -3278,6 +3305,15 @@
         </variant>
         <variant>
           <configItem>
+            <name>tr</name>
+            <description>Turkish (Germany)</description>
+            <languageList>
+              <iso639Id>tr</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ru</name>
             
             <shortDescription>ru</shortDescription>
@@ -3542,6 +3578,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Italian (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <description>Italian (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -3877,7 +3919,7 @@
         <variant>
           <configItem>
             <name>cyrillicyz</name>
-            <description>Montenegrin (Cyrillic, Z and ZHE swapped)</description>
+            <description>Montenegrin (Cyrillic, ZE and ZHE swapped)</description>
           </configItem>
         </variant>
         <variant>
@@ -3970,6 +4012,8 @@
         <description>Norwegian</description>
         <languageList>
           <iso639Id>nor</iso639Id>
+          <iso639Id>nob</iso639Id>
+          <iso639Id>nno</iso639Id>
         </languageList>
       </configItem>
       <variantList>
@@ -3977,6 +4021,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Norwegian (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <description>Norwegian (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -4376,7 +4426,7 @@
         <variant>
           <configItem>
             <name>yz</name>
-            <description>Serbian (Cyrillic, Z and ZHE swapped)</description>
+            <description>Serbian (Cyrillic, ZE and ZHE swapped)</description>
           </configItem>
         </variant>
         <variant>
@@ -4418,7 +4468,7 @@
         <variant>
           <configItem>
             <name>rue</name>
-            <description>Pannonian Rusyn (homophonic)</description>
+            <description>Pannonian Rusyn</description>
             <languageList>
               <iso639Id>rue</iso639Id>
             </languageList>
@@ -4440,7 +4490,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <description>Slovenian (use guillemets for quotes)</description>
+            <description>Slovenian (with guillemets for quotes)</description>
           </configItem>
         </variant>
         <variant>
@@ -4497,6 +4547,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <description>Spanish (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <description>Spanish (Winkeys)</description>
           </configItem>
         </variant>
         <variant>
@@ -5642,6 +5698,24 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>md</name>
+        <shortDescription>md</shortDescription>
+        <description>Moldavian</description>
+        <languageList><iso639Id>rum</iso639Id></languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>gag</name>
+            <shortDescription>gag</shortDescription>
+            <description>Moldavian (Gagauz)</description>
+            <languageList><iso639Id>gag</iso639Id></languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
@@ -5810,6 +5884,12 @@
         <configItem>
           <name>grp:lwin_toggle</name>
           <description>Left Win</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:win_space_toggle</name>
+          <description>Win Key+Space</description>
         </configItem>
       </option>
       <option>
@@ -6016,6 +6096,24 @@
         <configItem>
           <name>ctrl:ctrl_ralt</name>
           <description>Right Alt as Right Ctrl</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lalt_lctl</name>
+          <description>Swap Left Alt key with Left Ctrl key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lwin_lctl</name>
+          <description>Swap Left Win key with Left Ctrl key</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lalt_lctl_lwin</name>
+          <description>Left Alt as Ctrl, Left Ctrl as Win, Left Win as Alt</description>
         </configItem>
       </option>
     </group>
@@ -6300,7 +6398,7 @@
       <option>
         <configItem>
           <name>altwin:hyper_win</name>
-          <description>Hyper is mapped to Win-keys</description>
+          <description>Hyper is mapped to Win keys</description>
         </configItem>
       </option>
       <option>
@@ -6512,6 +6610,12 @@
         <configItem>
           <name>grab:break_actions</name>
           <description>Allow breaking grabs with keyboard actions (warning: security risk)</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grab:debug</name>
+          <description>Allow grab and window tree logging</description>
         </configItem>
       </option>
     </group>
