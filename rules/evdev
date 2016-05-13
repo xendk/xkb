@@ -9,8 +9,8 @@
 // If you want non-latin layouts implicitly include the en_US layout
 // uncomment lines below
 //! $nonlatin = am ara ben bd bg bt by cs deva ge gh gr guj guru il \
-//              in ir iku jp kan kh kr la lao lk mk mm mn mv mal ori pk \
-//              ru scc sy syr tel th tj tam ua uz
+//              in ir iku jp kan kh kr la lao lk mk mm mn mv mal olck \
+//              ori pk ru scc sy syr tel th tj tam ua uz
 
 // PC models
 ! $pcmodels = pc101 pc102 pc104 pc105
@@ -860,6 +860,7 @@
 
 ! model		=	symbols
   $evdevkbds    =   +inet(evdev)+inet(%m)
+  chromebook    =   +inet(evdev)+inet(chromebook)
   applealu_jis  =   +inet(evdev)+macintosh_vndr/jp(alujiskeys)
   *             =   +inet(evdev)
 
@@ -937,6 +938,7 @@
   altwin:left_meta_win	=	+altwin(left_meta_win)
   altwin:hyper_win	=	+altwin(hyper_win)
   altwin:alt_super_win	=	+altwin(alt_super_win)
+  altwin:swap_lalt_lwin	=	+altwin(swap_lalt_lwin)
   altwin:swap_alt_win	=	+altwin(swap_alt_win)
   grab:debug		=	+srvr_ctrl(grab_debug)
   grp:switch		=	+group(switch)
@@ -1009,6 +1011,10 @@
   ctrl:rctrl_ralt	=	+ctrl(rctrl_ralt)
   ctrl:menu_rctrl	=	+ctrl(menu_rctrl)
   ctrl:ralt_rctrl	=	+ctrl(ralt_rctrl)
+  ctrl:swap_lalt_lctl	=	+ctrl(swap_lalt_lctl)
+  ctrl:swap_lwin_lctl	=	+ctrl(swap_lwin_lctl)
+  ctrl:swap_rwin_rctl	=	+ctrl(swap_rwin_rctl)
+  ctrl:swap_lalt_lctl_lwin  =	+ctrl(swap_lalt_lctl_lwin)
   compose:ralt		=	+compose(ralt)
   compose:lwin		=	+compose(lwin)
   compose:lwin-altgr	=	+compose(lwin-altgr)
@@ -1051,6 +1057,8 @@
   nbsp:level4nl         =	+nbsp(level4nl)
   japan:nicola_f_bs     =	+jp(nicola_f_bs)
   japan:hztg_escape     =	+jp(hztg_escape)
+  korean:ralt_rctrl     =	+kr(ralt_hangul)+kr(rctrl_hanja)
+  korean:rctrl_ralt     =	+kr(rctrl_hangul)+kr(ralt_hanja)
   kpdl:dot              =	+kpdl(dot)
   kpdl:comma            =	+kpdl(comma)
   kpdl:dotoss           =	+kpdl(dotoss)
