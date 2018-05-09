@@ -1,0 +1,17 @@
+#!/bin/bash
+# With much inspiration from http://www.pixelbeat.org/docs/xkb_remap/
+
+XKB_DIR="$(dirname "$(readlink -f "$0")")"
+
+# Find ids of TE keyboards. For some reason, mine shows up twice, so
+# we install the keymap in all to be sure.
+remote_id=$(
+    xinput list |
+        sed -n 's/.*TrulyErgonomic.com.*id=\([0-9]*\).*keyboard.*/\1/p'
+         )
+[ "$remote_id" ] || exit
+
+for x in $remote_id; do
+    # Load pre-compiled keymap into X server, for each TE keyboard.
+    xkbcomp -i $x $XKB_DIR/xen_te.xkm -synch $DISPLAY || echo fail
+done

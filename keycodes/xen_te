@@ -1,5 +1,5 @@
 
-default xkb_keycodes "xen-te" {
+default xkb_keycodes "xen_te" {
 	minimum = 8;
 	maximum = 255;
 

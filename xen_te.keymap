@@ -1,0 +1,7 @@
+xkb_keymap {
+	xkb_keycodes  { include "xen_te+aliases(qwerty)"	};
+	xkb_types     { include "complete"	};
+	xkb_compat    { include "complete"	};
+	xkb_symbols   { include "pc+xen(xvorakte)+inet(evdev)"	};
+	xkb_geometry  { include "pc(pc104)"	};
+};
